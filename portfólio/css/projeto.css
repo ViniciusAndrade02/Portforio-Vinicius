@@ -1,0 +1,1152 @@
+.projetos{
+
+  display: grid;
+  grid-template-columns: 0.8fr 2fr;
+  grid-column: auto 0px auto;
+  padding: 3rem 1rem;
+  margin: 0 auto;
+  gap: 10rem;
+  margin-bottom: 2rem;
+}
+
+.projetos h2{
+  color: #DEDEDE;
+  text-transform: uppercase;
+}
+
+.empresa p{
+
+  max-width: 60ch;
+  font-size: 1.5rem;
+  color: #595959;
+}
+
+.empresa strong{
+
+  color: #000;
+}
+
+
+.empresa-informacao{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 45rem;
+  padding: 20px;
+  background-color: #EDEDED;
+  margin-top: 2rem;
+  border-radius: 5px;
+  
+}
+
+.descricao-projeto{
+  position: relative;
+}
+
+.descricao-projeto h3{
+
+  font-size:1.6rem;
+  position: relative;
+}
+
+.descricao-projeto h3::before{
+
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #1BB498;
+  height: 1.6rem;
+  width: 0.4rem;
+  left: -1.6rem;
+}
+.descricao-projeto #psicoverso::before{
+  background-color: #5EEAAF;
+}
+
+
+.descricao-projeto p{
+
+  font-size: 1.1rem;
+  max-width: 34ch;
+  padding: 6px 0px;
+  margin-bottom: 0.5rem;
+}
+
+.descricao-projeto label{
+
+  display: block;
+  text-align: right;
+  width: 3rem;
+  position: absolute;
+  font-size:1.2rem;
+  left: -85px;
+  top:2px;
+}
+
+.tecnologia-usada h3{
+
+  font-size:1.6rem;
+}
+
+.descricao-projeto a{
+
+  background-color: #1BB498;
+  color: #000;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.descricao-projeto .psicoverso{
+  background-color: #5EEAAF;
+}
+
+.ferramentas{
+
+  display: flex;
+  flex-wrap: wrap;
+  gap:0px 8px; 
+}
+
+.tecnologia-usada label{
+  display: inline-block;
+  margin-top: 6px;
+  background: #CCCCCC;
+  padding: 10px 15px;
+  border-radius: 5px;
+
+}
+
+
+
+
+
+@media (max-width:1060px){
+  
+
+  
+  .projetos h2{
+    color: #dedede;
+  }
+  
+  .empresa p{
+    max-width: 50ch;
+    font-size: 1.3rem;
+  }
+
+  .projetos h2{
+
+    font-size: 6.5rem;
+    max-width: 34rem;
+    line-height: 1;
+    word-break: break-all;
+    font-family: 'Bitter';
+    text-transform: uppercase;
+  }
+  
+  .descricao-projeto h3,   .tecnologia-usada h3{
+  
+    font-size:1.4rem;
+    position: relative;
+  }
+  
+  .descricao-projeto h3::before{
+  
+    height: 1.6rem;
+    width: 0.4rem;
+    left: -1.6rem;
+  }
+  
+  .descricao-projeto p{
+  
+    font-size: 1rem;
+    max-width: 24ch;
+    padding: 6px 0px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .descricao-projeto label{
+  
+    display: block;
+    text-align: right;
+    width: 3rem;
+    position: absolute;
+    font-size:1.2rem;
+    left: -85px;
+    top:2px;
+  }
+
+  .descricao-projeto a{
+  
+    background-color: #1BB498;
+    color: #000;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+  
+  .ferramentas{
+  
+    display: flex;
+    flex-wrap: wrap;
+    gap:0px 8px; 
+  }
+  
+  .tecnologia-usada label{
+    display: inline-block;
+    margin-top: 6px;
+    background: #CCCCCC;
+    padding: 8px 12px;
+    border-radius: 5px;
+  
+  }
+  
+  
+}
+
+
+
+
+
+
+
+@media (max-width:900px){
+  
+  .projetos{
+
+    grid-template-columns: 0.8fr 1fr;
+    grid-column: auto 0px auto;
+    padding: 3rem 1rem;
+    margin: 0 auto;
+    gap: 7rem;
+  }
+
+  .projetos h2{
+
+    font-size: 6.2rem;
+    max-width: 14rem;
+    line-height: 1;
+    word-break: break-all;
+    font-family: 'Bitter';
+    text-transform: uppercase;
+  }
+  
+  
+  .projetos h2{
+    color: #dedede;
+  }
+  
+  .empresa p{
+    max-width: 50ch;
+    font-size: 1.2rem;
+  }
+  
+  .descricao-projeto h3,   .tecnologia-usada h3{
+  
+    font-size:1rem;
+    position: relative;
+  }
+  
+  .descricao-projeto h3::before{
+  
+    height: 1.6rem;
+    width: 0.4rem;
+    left: -1.6rem;
+  }
+  
+  .descricao-projeto p{
+  
+    font-size: 0.8rem;
+    max-width: 22ch;
+    padding: 6px 0px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .descricao-projeto label{
+  
+    display: block;
+    text-align: right;
+    width: 3rem;
+    position: absolute;
+    font-size:1.2rem;
+    left: -85px;
+    top:2px;
+  }
+
+  .descricao-projeto a{
+  
+    background-color: #1BB498;
+    color: #000;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    padding: 7px 10px;
+  }
+  
+  .ferramentas{
+  
+    display: flex;
+    flex-wrap: wrap;
+    gap:0px 8px; 
+  }
+  
+  .tecnologia-usada label{
+    margin-top: 6px;
+    font-size: 0.7rem;
+    padding: 6px 10px;
+    border-radius: 5px;
+  
+  }
+  
+}
+
+
+
+
+
+
+
+
+@media (max-width:830px){
+  
+  .projetos{
+
+    grid-template-columns: 0.65fr 1fr;
+    grid-column: auto 0px auto;
+    padding: 3rem 1rem;
+    margin: 0 auto;
+    gap: 7rem;
+  }
+
+  .projetos h2{
+
+    font-size: 6rem;
+    max-width: 18rem;
+    line-height: 1;
+    word-break: break-all;
+    font-family: 'Bitter';
+    text-transform: uppercase;
+  }
+  
+  
+  .projetos h2{
+    color: #dedede;
+  }
+  
+  .empresa p{
+    max-width: 50ch;
+    font-size: 1rem;
+  }
+  
+  .descricao-projeto h3,   .tecnologia-usada h3{
+  
+    font-size:1.2rem;
+    position: relative;
+  }
+  
+  .descricao-projeto h3::before{
+  
+    height: 1.3rem;
+    width: 0.3rem;
+    left: -1.5rem;
+    
+  }
+  
+  .descricao-projeto p{
+  
+    font-size: 0.8rem;
+    max-width: 22ch;
+    padding: 6px 0px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .descricao-projeto label{
+  
+    display: block;
+    text-align: right;
+    width: 3rem;
+    position: absolute;
+    font-size:0.9rem;
+    left: -80px;
+    top:2.5px;
+  }
+
+  .descricao-projeto a{
+  
+    background-color: #1BB498;
+    color: #000;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    padding: 7px 10px;
+  }
+  
+  .ferramentas{
+  
+    display: flex;
+    flex-wrap: wrap;
+    gap:0px 8px; 
+  }
+  
+  .tecnologia-usada label{
+    margin-top: 6px;
+    font-size: 0.7rem;
+    padding: 6px 10px;
+    border-radius: 5px;
+  
+  }
+  
+}
+
+
+
+
+
+
+@media (max-width:780px){
+  
+  .projetos{
+
+    grid-template-columns: 0.45fr 1fr;
+    grid-column: auto 0px auto;
+    padding: 3rem 1rem;
+    margin: 0 auto;
+    gap: 7rem;
+  }
+
+  .projetos h2{
+
+    font-size: 6rem;
+    max-width: 4ch;
+    line-height: 1;
+    font-family: 'Bitter';
+    text-transform: uppercase;
+  }
+
+}
+
+
+
+
+
+
+
+@media (max-width:710px){
+  
+  .projetos{
+
+    grid-template-columns: 0.55fr 1fr;
+    grid-column: auto 0px auto;
+    padding: 3rem 1rem;
+    margin: 0 auto;
+    gap: 7rem;
+  }
+
+  .empresa-informacao{
+    margin-top: 1rem;
+  }
+
+  .projetos h2{
+
+    font-size: 6rem;
+    max-width: 12rem;
+    line-height: 1;
+    word-break: break-all;
+    font-family: 'Bitter';
+    text-transform: uppercase;
+  }
+  
+  
+  .projetos h2{
+    color: #dedede;
+  }
+  
+  .empresa p{
+    max-width: 50ch;
+    font-size: 1rem;
+  }
+  
+  .descricao-projeto h3,   .tecnologia-usada h3{
+  
+    font-size:1rem;
+    position: relative;
+  }
+  
+  .descricao-projeto h3::before{
+  
+    height: 1.3rem;
+    width: 0.3rem;
+    left: -1.5rem;
+    
+  }
+  
+  .descricao-projeto p{
+  
+    font-size: 0.75rem;
+    max-width: 22ch;
+    padding: 6px 0px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .descricao-projeto label{
+  
+    display: block;
+    text-align: right;
+    width: 3rem;
+    position: absolute;
+    font-size:0.9rem;
+    left: -80px;
+    top:2.5px;
+  }
+
+  .descricao-projeto a{
+  
+    background-color: #1BB498;
+    font-size: 0.7rem;
+    color: #000;
+    padding: 6px 12px;
+    border-radius: 5px;
+  }
+  
+  .ferramentas{
+  
+    display: flex;
+    flex-wrap: wrap;
+    gap:0px 8px; 
+  }
+  
+  .tecnologia-usada label{
+    margin-top: 6px;
+    font-size: 0.7rem;
+    padding: 6px 8px;
+    border-radius: 5px;
+  
+  }
+  
+}
+
+
+@media (max-width:650px){
+  
+  .projetos{
+
+    grid-template-columns: 0.36fr 1fr;
+    grid-column: auto 0px auto;
+    padding: 3rem 1rem;
+    margin: 0 auto;
+    gap: 7rem;
+  }
+
+  .empresa-informacao{
+    margin-top: 1rem;
+  }
+
+  .projetos h2{
+
+    font-size: 4rem;
+    max-width: 5ch;
+    line-height: 1;
+    word-break: break-all;
+    font-family: 'Bitter';
+    text-transform: uppercase;
+  }
+  
+  
+  .projetos h2{
+    color: #dedede;
+  }
+  
+  .empresa p{
+    max-width: 50ch;
+    font-size: 0.8rem;
+  }
+  
+  .descricao-projeto h3,   .tecnologia-usada h3{
+  
+    font-size:0.9rem;
+    position: relative;
+  }
+  
+  .descricao-projeto h3::before{
+  
+    height: 1.3rem;
+    width: 0.3rem;
+    left: -1.5rem;
+    
+  }
+  
+  .descricao-projeto p{
+  
+    font-size: 0.7rem;
+    max-width: 22ch;
+    padding: 6px 0px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .descricao-projeto label{
+  
+    display: block;
+    text-align: right;
+    width: 3rem;
+    position: absolute;
+    font-size:0.8rem;
+    left: -80px;
+    top:3px;
+  }
+
+  .descricao-projeto a{
+  
+    background-color: #1BB498;
+    font-size: 0.7rem;
+    color: #000;
+    padding: 6px 10px;
+    border-radius: 5px;
+  }
+  
+  .ferramentas{
+  
+    display: flex;
+    flex-wrap: wrap;
+    gap:0px 8px; 
+  }
+  
+  .tecnologia-usada label{
+    margin-top: 6px;
+    font-size: 0.7rem;
+    padding: 6px 10px;
+    border-radius: 5px;
+  
+  }
+  
+}
+
+
+
+@media (max-width:560px) and (min-width:521px){
+
+  .projetos{
+    grid-template-columns: 1fr ;
+    grid-column: auto 0px auto;
+    padding: 1rem 1rem;
+    margin: 0 auto;
+    gap: 2rem;
+    justify-items: center;
+  }
+
+  .projetos h2{
+
+    max-width: 30rem;
+    font-size: 4rem;
+    line-height: 1;
+    word-break:normal;
+    font-family: 'Bitter';
+    text-transform:capitalize;
+  }
+
+  .empresa {
+
+    display: grid;
+    justify-items: center;
+  }
+
+  .empresa p{
+    max-width: 40rem;
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+
+  .empresa-informacao{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 22rem;
+    padding:  10px;
+    background-color: #EDEDED;
+    margin-top: 1rem;
+    border-radius: 5px;
+  }
+
+  .descricao-projeto h3,   .tecnologia-usada h3{
+
+    font-size:0.9rem;
+    position: relative;
+  }
+  
+  .descricao-projeto h3::before{
+
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #1BB498;
+    height: 1rem;
+    width: 0.3rem;
+    left: -0.9rem;
+  }
+  
+  .descricao-projeto label{
+
+    display: block;
+    text-align: right;
+    width: 3rem;
+    position: absolute;
+    font-size:0.7rem;
+    left: -4rem;
+    top:2.5px;
+  }
+  
+  .descricao-projeto p{
+
+    font-size: 0.7rem;
+    max-width: 10rem;
+    padding: 4px 0px;
+    margin-bottom: 0.2rem;
+  }
+
+  .descricao-projeto a{
+
+    background-color: #1BB498;
+    font-size: 0.6rem;
+    color: #000;
+    padding: 6px 10px;
+    border-radius: 5px;
+  }
+
+  .tecnologia-usada label{
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 0.6rem;
+    background: #CCCCCC;
+    padding: 6px 10px;
+    border-radius: 5px;
+  
+  }
+  
+}
+
+
+
+@media (max-width:520px) and (min-width:461px){
+
+  .projetos{
+    grid-template-columns: 1fr ;
+    grid-column: auto 0px auto;
+    padding: 1rem 1rem;
+    margin: 0 auto;
+    gap: 2rem;
+    justify-items: center;
+  }
+
+  .projetos h2{
+
+    max-width: 30rem;
+    font-size: 4rem;
+    line-height: 1;
+    word-break:normal;
+    font-family: 'Bitter';
+    text-transform:capitalize;
+  }
+
+  .empresa {
+
+    display: grid;
+    justify-items: center;
+  }
+
+  .empresa p{
+    max-width: 40rem;
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+
+  .empresa-informacao{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 22rem;
+    padding:  10px;
+    background-color: #EDEDED;
+    margin-top: 1rem;
+    border-radius: 5px;
+  }
+
+  .descricao-projeto h3,   .tecnologia-usada h3{
+
+    font-size:0.9rem;
+    position: relative;
+  }
+  
+  .descricao-projeto h3::before{
+
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #1BB498;
+    height: 1rem;
+    width: 0.3rem;
+    left: -0.9rem;
+  }
+  
+  .descricao-projeto label{
+
+    display: block;
+    text-align: right;
+    width: 3rem;
+    position: absolute;
+    font-size:0.7rem;
+    left: -4rem;
+    top:2.5px;
+  }
+  
+  .descricao-projeto p{
+
+    font-size: 0.8rem;
+    max-width: 10rem;
+    padding: 4px 0px;
+    margin-bottom: 0.2rem;
+  }
+
+  .descricao-projeto a{
+
+    background-color: #1BB498;
+    font-size: 0.6rem;
+    color: #000;
+    padding: 6px 10px;
+    border-radius: 5px;
+  }
+
+  .tecnologia-usada label{
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 0.6rem;
+    background: #CCCCCC;
+    padding: 6px 10px;
+    border-radius: 5px;
+  
+  }
+  
+}
+
+
+
+  @media (max-width:460px){
+
+    .projetos{
+      grid-template-columns: 1fr ;
+      grid-column: auto 0px auto;
+      margin: 0 auto;
+      gap: 1rem;
+      justify-items: center;
+      align-items: center;
+    }
+
+    .projetos h2{
+
+      max-width: 18rem;
+      font-size: 3.5rem;
+      line-height: 1;
+      word-break:normal;
+      font-family: 'Bitter';
+      text-transform:capitalize;
+    }
+
+    .empresa p{
+      max-width: 25rem;
+      font-size: 1rem;
+      line-height: 1.2;
+      margin-left: 0.5rem;
+      word-break: break-all;
+    }
+
+    .empresa-informacao{
+
+      display: grid;
+      grid-template-columns: 1fr;
+      max-width: 17.5rem;
+      background-color: #EDEDED;
+      margin-top: 1rem;
+      border-radius: 5px;
+      box-shadow: 2px 5px 5px #d3d2d2;
+      position: relative;
+      left: 1.5rem;
+    }
+
+    .descricao-projeto h3,   .tecnologia-usada h3{
+  
+      font-size:1rem;
+      position: relative;
+    }
+
+    .tecnologia-usada h3{
+      padding-top: 1.3rem;
+    }
+    
+    .descricao-projeto h3::before{
+
+      content: "";
+      display: block;
+      position: absolute;
+      background-color: #1BB498;
+      height: 1.2rem;
+      width: 0.2rem;
+      top: -0.1rem;
+      left: -1.4rem;
+    }
+    
+    .descricao-projeto label{
+
+      display: block;
+      text-align: right;
+      width: 3rem;
+      position: absolute;
+      font-size:0.72rem;
+      left: -4.6rem;
+      top:2px;
+    }
+    
+    .descricao-projeto p{
+  
+      font-size: 0.8rem;
+      max-width: 40ch;
+      padding: 4px 0px;
+      position: relative;
+      left: -0.5rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .descricao-projeto a{
+  
+      background-color: #1BB498;
+      font-size: 0.7rem;
+      color: #000;
+      padding: 6px 10px;
+      border-radius: 5px;
+    }
+
+    .tecnologia-usada label{
+      display: inline-block;
+      margin-top: 6px;
+      font-size: 0.7rem;
+      background: #CCCCCC;
+      padding: 6px 10px;
+      border-radius: 5px;
+    
+    }
+
+
+
+
+
+
+    @media (max-width:380px){
+
+      .projetos{
+        grid-template-columns: 1fr ;
+        grid-column: auto 0px auto;
+        padding: 1rem 1rem;
+        margin: 0 auto;
+        gap: 1rem;
+        justify-items: center;
+        align-items: center;
+      }
+  
+      .projetos h2{
+  
+        max-width: 18rem;
+        font-size: 3rem;
+        line-height: 1;
+        word-break:normal;
+        font-family: 'Bitter';
+        text-transform:capitalize;
+        position: relative;
+        left: -0.1rem;
+      }
+  
+      .empresa p{
+        max-width: 20rem;
+        font-size: 0.8rem;
+        line-height: 1.2;
+        margin-left: 0.5rem;
+        word-break:normal;
+      }
+  
+      .empresa-informacao{
+  
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 15rem;
+        padding:  10px;
+        background-color: #EDEDED;
+        margin-top: 1rem;
+        border-radius: 5px;
+        position: relative;
+        left: 1.5rem;
+      }
+  
+      .descricao-projeto h3,   .tecnologia-usada h3{
+    
+        font-size:0.8rem;
+        position: relative;
+      }
+
+      .tecnologia-usada h3{
+
+        padding-top: 1rem;
+      }
+      
+      .descricao-projeto h3::before{
+  
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: #1BB498;
+        height: 1.1rem;
+        width: 0.2rem;
+        left: -0.8rem;
+      }
+      
+      .descricao-projeto label{
+  
+        display: block;
+        text-align: right;
+        width: 3rem;
+        position: absolute;
+        font-size:0.6rem;
+        left: -4rem;
+        top:2px;
+      }
+      
+      .descricao-projeto p{
+    
+        font-size: 0.74rem;
+        max-width: 16rem;
+        padding: 4px 0px;
+        margin-bottom: 0.2rem;
+        position: relative;
+        left: -0.5rem;
+      }
+  
+      .descricao-projeto a{
+    
+        background-color: #1BB498;
+        font-size: 0.68rem;
+        color: #000;
+        padding: 6px 10px;
+        border-radius: 5px;
+      }
+  
+      .tecnologia-usada label{
+        display: inline-block;
+        margin-top: 6px;
+        font-size: 0.6rem;
+        background: #CCCCCC;
+        padding: 6px 10px;
+        border-radius: 5px;
+      
+      }
+
+      @media (max-width:325px){
+
+        .projetos{
+          grid-template-columns: 1fr ;
+          grid-column: auto 0px auto;
+          padding: 1rem 1rem;
+          margin: 0 auto;
+          gap: 1rem;
+          justify-items: center;
+          align-items: center;
+        }
+    
+        .projetos h2{
+    
+          max-width: 18rem;
+          font-size: 3rem;
+          line-height: 1;
+          word-break:normal;
+          font-family: 'Bitter';
+          text-transform:capitalize;
+          position: relative;
+          left: -0.1rem;
+        }
+    
+        .empresa p{
+          max-width: 20rem;
+          font-size: 0.8rem;
+          line-height: 1.2;
+          margin-left: 0.5rem;
+          word-break:normal;
+        }
+    
+        .empresa-informacao{
+    
+          display: grid;
+          grid-template-columns: 1fr;
+          max-width: 12rem;
+          padding:  10px;
+          background-color: #EDEDED;
+          margin-top: 1rem;
+          border-radius: 5px;
+          position: relative;
+          left: 1.5rem;
+        }
+    
+        .descricao-projeto h3,   .tecnologia-usada h3{
+      
+          font-size:0.8rem;
+          position: relative;
+        }
+  
+        .tecnologia-usada h3{
+  
+          padding-top: 1rem;
+        }
+        
+        .descricao-projeto h3::before{
+    
+          content: "";
+          display: block;
+          position: absolute;
+          background-color: #1BB498;
+          height: 1.1rem;
+          width: 0.2rem;
+          left: -0.8rem;
+        }
+        
+        .descricao-projeto label{
+    
+          display: block;
+          text-align: right;
+          width: 3rem;
+          position: absolute;
+          font-size:0.6rem;
+          left: -4rem;
+          top:2px;
+        }
+        
+        .descricao-projeto p{
+      
+          font-size: 0.74rem;
+          max-width: 16rem;
+          padding: 4px 0px;
+          margin-bottom: 0.2rem;
+          position: relative;
+          left: -0.5rem;
+        }
+    
+        .descricao-projeto a{
+      
+          background-color: #1BB498;
+          font-size: 0.68rem;
+          color: #000;
+          padding: 6px 10px;
+          border-radius: 5px;
+        }
+    
+        .tecnologia-usada label{
+          display: inline-block;
+          margin-top: 6px;
+          font-size: 0.6rem;
+          background: #CCCCCC;
+          padding: 6px 10px;
+          border-radius: 5px;
+        
+        }
+  
+}
+}
+}

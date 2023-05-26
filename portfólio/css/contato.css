@@ -1,0 +1,1124 @@
+.contato{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: auto 0px auto;
+  padding: 3rem 3rem;
+  margin: 0 auto;
+  gap: 10rem;
+  background-color: #000000;
+
+
+}
+
+.conversa{
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.p-conversar{
+
+  max-width: 35ch;
+  font-size: 1.2rem;
+  color: #595959;
+  position: relative;
+  top: 1rem;
+}
+
+.p-conversar::before{
+
+  content: "";
+  display: block;
+  width: 150px;
+  height: 110px;
+  background: url('../img/decorador.svg') no-repeat center;
+  position: absolute;
+  top: -7.5rem;
+  left: 4rem;
+
+}
+
+.conversa strong{
+
+  color: #FFFF;;
+}
+
+.label-direito{
+
+  display: inline-block;
+  padding-top: 15rem;
+  max-width: 50ch;
+  font-size: 0.8rem;
+  color: #595959;
+
+}
+
+.email label{
+
+  color: #595959;
+  font-size: 1.4rem;
+  position: relative;
+}
+
+.email h3{
+
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding-bottom: 1rem;
+}
+
+.email label::before{
+
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #13dbb7;
+  height: 3rem;
+  width: 0.3rem;
+  top: 0rem;
+  left: -0.9rem;
+}
+
+.whats label{
+
+  color: #595959;
+  font-size: 1.4rem;
+  position: relative;
+}
+
+.whats h3{
+
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding-bottom: 1rem;
+}
+
+.whats label::before{
+
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #5EEAAF;
+  height: 3.6rem;
+  width: 0.3rem;
+  top: 0rem;
+  left: -0.9rem;
+}
+
+.linkdin{
+
+  display: flex;
+  flex-direction: column;
+  gap: 3px 0px;
+  position: relative;
+}
+
+.linkdin label{
+
+  color: #595959;
+  font-size: 1.4rem;
+
+}
+
+
+.linkdin h3{
+
+  max-width: 3.45rem;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #070707;
+  border: 2px solid #13dbb7;
+  margin-bottom: 1rem;
+
+}
+
+.hithub{
+
+  display: flex;
+  flex-direction: column;
+  gap: 3px 0px;
+}
+
+.hithub label{
+
+  color: #595959;
+  font-size: 1.4rem;
+}
+
+.hithub h3{
+
+  max-width: 3.45rem;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #070707;
+  border: 2px solid #5EEAAF;
+  margin-bottom: 1rem;
+}
+
+.hithub .label-direito-adaptado{
+
+  display: none;
+}
+
+@media (max-width:900px){
+
+
+
+  .contato{
+
+    display: grid;
+    grid-template-columns:1fr;
+    grid-column: auto 0px auto;
+    padding: 3rem 3rem;
+    margin: 0 auto;
+    gap: 5rem;
+    background-color: #000000;
+  
+  
+  }
+  
+  .conversa{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  .p-conversar{
+  
+    max-width: 50ch;
+    font-size: 1.2rem;
+    color: #595959;
+    position: relative;
+    top: 1rem;
+  }
+  
+  .p-conversar::before{
+  
+    content: "";
+    display: block;
+    width: 150px;
+    height: 110px;
+    background: url('../img/decorador.svg') no-repeat center;
+    background-size: 6rem;
+    position: absolute;
+    top: -7.5rem;
+    left: -5rem;
+  
+  }
+  
+  .conversa strong{
+  
+    color: #FFFF;;
+  }
+
+  .rede-social{
+
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+  
+  .label-direito{
+    display: none;
+  }
+  
+  .email label{
+  
+    color: #595959;
+    font-size: 1.4rem;
+    position: relative;
+  }
+  
+  .email h3{
+  
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
+  }
+  
+  .email label::before{
+  
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #13dbb7;
+    height: 3rem;
+    width: 0.3rem;
+    top: 0rem;
+    left: -0.9rem;
+  }
+  
+  .whats label{
+  
+    color: #595959;
+    font-size: 1.4rem;
+    position: relative;
+  }
+  
+  .whats h3{
+  
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
+  }
+  
+  .whats label::before{
+  
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #5EEAAF;
+    height: 3.6rem;
+    width: 0.3rem;
+    top: 0rem;
+    left: -0.9rem;
+  }
+  
+  .linkdin{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px 0px;
+    position: relative;
+  }
+  
+  .linkdin label{
+  
+    color: #595959;
+    font-size: 1.4rem;
+  
+  }
+  
+  
+  .linkdin h3{
+  
+    max-width: 3.45rem;
+    border-radius: 5px;
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #070707;
+    border: 2px solid #13dbb7;
+    margin-bottom: 1rem;
+
+  
+  }
+  
+  .hithub{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px 0px;
+  }
+  
+  .hithub label{
+  
+    color: #595959;
+    font-size: 1.4rem;
+  }
+  
+  .hithub h3{
+  
+    max-width: 3.45rem;
+    border-radius: 5px;
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #070707;
+    border: 2px solid #5EEAAF;
+    margin-bottom: 1rem;
+  }
+
+  .hithub .label-direito-adaptado{
+
+    display: flex;
+    margin-top: 2rem;
+    max-width: 50ch;
+    font-size: 0.9rem;
+    color: #595959;
+  }
+}
+
+
+@media (max-width:720px){
+
+  .contato{
+
+    display: grid;
+    grid-template-columns:1fr;
+    grid-column: auto 0px auto;
+    padding: 3rem 3rem;
+    margin: 0 auto;
+    gap: 5rem;
+    background-color: #000000;
+  
+  
+  }
+  
+  .conversa{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  .p-conversar{
+  
+    max-width: 50ch;
+    font-size: 1.2rem;
+    color: #595959;
+    position: relative;
+    top: 1rem;
+  }
+  
+  .p-conversar::before{
+  
+    content: "";
+    display: block;
+    width: 150px;
+    height: 110px;
+    background: url('../img/decorador.svg') no-repeat center;
+    background-size: 5rem;
+    position: absolute;
+    top: -7.5rem;
+    left: 0rem;
+  
+  }
+  
+  .conversa strong{
+  
+    color: #FFFF;;
+  }
+
+  .rede-social{
+
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+  
+  .label-direito{
+    display: none;
+  }
+  
+  .email label{
+  
+    color: #595959;
+    font-size: 1.4rem;
+    position: relative;
+  }
+  
+  .email h3{
+  
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
+  }
+  
+  .email label::before{
+  
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #13dbb7;
+    height: 3rem;
+    width: 0.3rem;
+    top: 0rem;
+    left: -0.9rem;
+  }
+  
+  .whats label{
+  
+    color: #595959;
+    font-size: 1.4rem;
+    position: relative;
+  }
+  
+  .whats h3{
+  
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
+  }
+  
+  .whats label::before{
+  
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #5EEAAF;
+    height: 3.6rem;
+    width: 0.3rem;
+    top: 0rem;
+    left: -0.9rem;
+  }
+  
+  .linkdin{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px 0px;
+    position: relative;
+  }
+  
+  .linkdin label{
+  
+    color: #595959;
+    font-size: 1.4rem;
+  
+  }
+  
+  
+  .linkdin h3{
+  
+    max-width: 3.45rem;
+    border-radius: 5px;
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #070707;
+    border: 2px solid #13dbb7;
+    margin-bottom: 1rem;
+
+  
+  }
+  
+  .hithub{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px 0px;
+  }
+  
+  .hithub label{
+  
+    color: #595959;
+    font-size: 1.4rem;
+  }
+  
+  .hithub h3{
+  
+    max-width: 3.45rem;
+    border-radius: 5px;
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #070707;
+    border: 2px solid #5EEAAF;
+    margin-bottom: 1rem;
+  }
+
+  .hithub .label-direito-adaptado{
+
+    display: flex;
+    margin-top: 2rem;
+    max-width: 50ch;
+    font-size: 0.9rem;
+    color: #595959;
+  }
+    
+}
+
+
+
+@media (max-width:560px){
+
+  .contato{
+
+    display: grid;
+    grid-template-columns:1fr;
+    grid-column: auto 0px auto;
+    padding: 3rem 3rem;
+    margin: 0 auto;
+    gap: 3rem;
+    background-color: #000000;
+  
+  
+  }
+  
+  .conversa{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  .p-conversar{
+  
+    max-width: 50ch;
+    font-size: 0.9rem;
+    color: #595959;
+    position: relative;
+    top: 1rem;
+  }
+  
+  .p-conversar::before{
+  
+    content: "";
+    display: block;
+    width: 150px;
+    height: 110px;
+    background: url('../img/decorador.svg') no-repeat center;
+    background-size: 4.7rem;
+    position: absolute;
+    top: -7.5rem;
+    left: -4rem;
+  
+  }
+  
+  .conversa strong{
+  
+    color: #FFFF;;
+  }
+
+  .rede-social{
+
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+  
+  .label-direito{
+    display: none;
+  }
+
+  .email{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  
+  .email label{
+  
+    color: #595959;
+    font-size: 1rem;
+    position: relative;
+  }
+  
+  .email h3{
+  
+    font-size: 1.2rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
+  }
+  
+  .email label::before{
+  
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #13dbb7;
+    height: 2.5rem;
+    width: 0.25rem;
+    top: 0rem;
+    left: -0.7rem;
+  }
+
+  .whats{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  
+  .whats label{
+  
+    color: #595959;
+    font-size: 1rem;
+    position: relative;
+  }
+  
+  .whats h3{
+  
+    font-size: 1.2rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
+  }
+  
+  .whats label::before{
+  
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #13dbb7;
+    height: 2.5rem;
+    width: 0.25rem;
+    top: 0rem;
+    left: -0.7rem;
+  }
+  
+  .linkdin{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px 0px;
+    position: relative;
+  }
+  
+  .linkdin label{
+  
+    color: #595959;
+    font-size: 1rem;
+  
+  }
+  
+  
+  .linkdin h3{
+  
+    max-width: 3.45rem;
+    border-radius: 5px;
+    padding: 0.8rem 4rem;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background-color: #070707;
+    border: 2px solid #13dbb7;
+    margin-bottom: 1rem;
+
+  
+  }
+  
+  .hithub{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px 0px;
+  }
+  
+  .hithub label{
+  
+    color: #595959;
+    font-size: 1rem;
+  }
+  
+  .hithub h3{
+  
+    max-width: 3.45rem;
+    border-radius: 5px;
+    padding: 0.8rem 4rem;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background-color: #070707;
+    border: 2px solid #5EEAAF;
+    margin-bottom: 1rem;
+  }
+
+  .hithub .label-direito-adaptado{
+
+    display: flex;
+    margin-top: 0.5rem;
+    max-width: 50ch;
+    font-size: 0.65rem;
+    color: #595959;
+  }
+    
+}
+
+
+@media (max-width:380px ){
+
+  .contato{
+
+    display: grid;
+    grid-template-columns:1fr;
+    grid-column: auto 0px auto;
+    padding: 3rem 3rem;
+    margin: 0 auto;
+    gap: 3rem;
+    background-color: #000000;
+  
+  
+  }
+  
+  .conversa{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  .p-conversar{
+  
+    max-width: 50ch;
+    font-size: 0.9rem;
+    color: #595959;
+    position: relative;
+    top: 1rem;
+  }
+  
+  .p-conversar::before{
+  
+    content: "";
+    display: block;
+    width: 150px;
+    height: 110px;
+    background: url('../img/decorador.svg') no-repeat center;
+    background-size: 4rem;
+    position: absolute;
+    top: -7.5rem;
+    left: -4rem;
+  
+  }
+  
+  .conversa strong{
+  
+    color: #FFFF;;
+  }
+
+  .rede-social{
+
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+  
+  .label-direito{
+    display: none;
+  }
+
+  .email{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  
+  .email label{
+  
+    color: #595959;
+    font-size: 1rem;
+    position: relative;
+  }
+  
+  .email h3{
+  
+    font-size: 1rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
+  }
+  
+  .email label::before{
+  
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #13dbb7;
+    height: 2.1rem;
+    width: 0.25rem;
+    top: 0rem;
+    left: -0.55rem;
+  }
+
+  .whats{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  
+  .whats label{
+  
+    color: #595959;
+    font-size: 1rem;
+    position: relative;
+  }
+  
+  .whats h3{
+  
+    font-size: 1rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
+  }
+  
+  .whats label::before{
+  
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #13dbb7;
+    height: 2.2rem;
+    width: 0.25rem;
+    top: 0rem;
+    left: -0.55rem;
+  }
+  
+  .linkdin{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px 0px;
+    position: relative;
+  }
+  
+  .linkdin label{
+  
+    color: #595959;
+    font-size: 1rem;
+  
+  }
+  
+  
+  .linkdin h3{
+  
+    max-width: 3.45rem;
+    border-radius: 5px;
+    padding: 0.7rem 3rem;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background-color: #070707;
+    border: 2px solid #13dbb7;
+    margin-bottom: 1rem;
+
+  
+  }
+  
+  .hithub{
+  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px 0px;
+  }
+  
+  .hithub label{
+  
+    color: #595959;
+    font-size: 1rem;
+  }
+  
+  .hithub h3{
+  
+    max-width: 3.45rem;
+    border-radius: 5px;
+    padding: 0.7rem 3rem;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background-color: #070707;
+    border: 2px solid #5EEAAF;
+    margin-bottom: 0.9rem;
+  }
+
+  .hithub .label-direito-adaptado{
+
+    display: flex;
+    margin-top: 0rem;
+    max-width: 50ch;
+    font-size: 0.65rem;
+    color: #595959;
+  }
+    
+}
+
+@media (max-width:307px ){
+
+  .contato{
+
+    display: grid;
+    grid-template-columns:1fr;
+    grid-column: auto 0px auto;
+    padding: 3rem 3rem;
+    margin: 0 auto;
+    gap: 3rem;
+    background-color: #000000;
+  
+  
+  }
+  
+  .conversa{
+  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  .p-conversar{
+  
+    max-width: 30ch;
+    font-size: 0.8rem;
+    color: #595959;
+    position: relative;
+    top: 1rem;
+  }
+  
+  .p-conversar::before{
+  
+    content: "";
+    display: block;
+    width: 150px;
+    height: 110px;
+    background: url('../img/decorador.svg') no-repeat center;
+    background-size: 5rem;
+    position: absolute;
+    top: -7.5rem;
+    left: 0rem;
+  
+  }
+  
+  .conversa strong{
+  
+    color: #FFFF;;
+  }
+
+  .rede-social{
+
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+  
+  .label-direito{
+    display: none;
+  }
+
+  .email{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  
+  .email label{
+  
+    color: #595959;
+    font-size: 1rem;
+    position: relative;
+  }
+  
+  .email h3{
+  
+    font-size: 1rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
+  }
+  
+  .email label::before{
+  
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #13dbb7;
+    height: 2.1rem;
+    width: 0.25rem;
+    top: 0rem;
+    left: -0.55rem;
+  }
+
+  .whats{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  
+  .whats label{
+  
+    color: #595959;
+    font-size: 1rem;
+    position: relative;
+  }
+  
+  .whats h3{
+  
+    font-size: 1rem;
+    color: #ffffff;
+    padding-bottom: 1rem;
+  }
+  
+  .whats label::before{
+  
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #13dbb7;
+    height: 2.2rem;
+    width: 0.25rem;
+    top: 0rem;
+    left: -0.55rem;
+  }
+  
+  .linkdin{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px 0px;
+    position: relative;
+  }
+  
+  .linkdin label{
+  
+    color: #595959;
+    font-size: 1rem;
+  
+  }
+  
+  
+  .linkdin h3{
+  
+    max-width: 3.45rem;
+    border-radius: 5px;
+    padding: 0.7rem 3rem;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background-color: #070707;
+    border: 2px solid #13dbb7;
+    margin-bottom: 1rem;
+
+  
+  }
+  
+  .hithub{
+  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px 0px;
+  }
+  
+  .hithub label{
+  
+    color: #595959;
+    font-size: 1rem;
+  }
+  
+  .hithub h3{
+  
+    max-width: 3.45rem;
+    border-radius: 5px;
+    padding: 0.7rem 3rem;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background-color: #070707;
+    border: 2px solid #5EEAAF;
+    margin-bottom: 0.9rem;
+  }
+
+  .hithub .label-direito-adaptado{
+
+    display: flex;
+    margin-top: 0rem;
+    max-width: 50ch;
+    font-size: 0.65rem;
+    color: #595959;
+  }
+}

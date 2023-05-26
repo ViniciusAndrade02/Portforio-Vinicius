@@ -1,0 +1,36 @@
+body{
+
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3,p {
+
+  margin: 0px;
+}
+
+ul{
+
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img{
+
+  max-width: 100%;
+  display: block;
+}
+
+a{
+
+  text-decoration: none;
+}
+
+h2{
+  font-size: 8rem;
+  max-width: 18rem;
+  line-height: 1;
+  word-break: break-all;
+  font-family: 'Bitter';
+}

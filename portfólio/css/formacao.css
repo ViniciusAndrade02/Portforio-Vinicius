@@ -1,0 +1,834 @@
+.formacao{
+
+  display: grid;
+  grid-template-columns: 0.8fr 2fr;
+  grid-column: auto 0px auto;
+  padding: 3rem 1rem;
+  margin: 0 auto;
+  gap: 10rem;
+  background-color: #0E0E0E;
+}
+
+.titulo{
+  text-transform: uppercase;
+  max-width: 5ch;
+}
+
+.titulo span{
+  background-color: #5EEAAF;
+}
+
+.desc-fazendo{
+
+  color: #9C9C9C;
+  max-width: 60ch;
+  font-size: 1.5rem;
+}
+
+.desc-fazendo strong{
+
+  color: #F7F7F7;
+}
+
+.graduacoes{
+  display: flex;
+
+}
+
+.graducao-analise{
+
+  display: flex;
+  max-width: 15rem;
+  padding: 20px;
+  border-radius: 5px;
+  flex-direction: column;
+  background-color: #000000;
+  margin-top: 2rem;
+}
+
+.graducao-senai{
+
+  display: flex;
+  padding: 20px;
+  border-radius: 5px;
+  flex-direction: column;
+  background-color: #000000;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.graducao-analise h3{
+
+  color: #fff;
+  line-height: 1.6rem;
+  font-weight: 700;
+}
+
+.graducao-senai h3{
+  color: #fff;
+  line-height: 1.6rem;
+  font-weight: 700;
+  max-width: 10rem;
+}
+
+.label-cursando{
+
+  text-align: right;
+  color: #404040;
+  font-size: 0.7rem;
+  position: relative;
+  top: -0.9rem;
+  left: 0.9rem;
+}
+
+.label-escolaridade{
+
+  color: #595959;
+  position: relative;
+  top: -0.4rem;
+  font-size: 1rem;
+  position: relative;
+
+}
+
+.label-escolaridade::before{
+
+  content:"";
+  display: block;
+  position: absolute;
+  top: -0.2rem;
+  left: -1.6rem;
+  background-color: #1BB498;
+  width: 0.35rem;
+  height: 1.5rem;
+}
+
+.graducao-senai .label-escolaridade::before{
+
+  content:"";
+  display: block;
+  position: absolute;
+  top: -0.2rem;
+  left: -1.6rem;
+  background-color: #5EEAAF;
+  width: 0.35rem;
+  height: 1.5rem;
+}
+
+.label-estacio{
+
+  color: #595959;
+  font-size: 0.8rem;
+  position: relative;
+  top: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.label-senai{
+  color: #595959;
+  font-size: 0.8rem;
+  position: relative;
+  top: 1rem;
+  margin-top: 2rem;
+}
+
+.extra{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.Curso-Intensivo{
+
+  display: grid;
+  margin-top: 2rem;
+  gap: 20px;
+  grid-template-columns: 12rem 6.4rem;
+}
+
+.label-cursos{
+
+  grid-column: 1/-1;
+  font-size: 1.4rem;
+  color: #595959;
+  position: relative;
+}
+
+.label-cursos::before{
+
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url(../img/cursos.svg);
+  background-repeat: no-repeat;
+  height: 3rem;
+  width: 2rem;
+  top: -0.1rem;
+  left: -2.5rem;
+}
+
+.label-materia{
+
+  color: #EDEDED;
+  font-size: 1.2rem;
+}
+
+.label-duracao{
+
+  color: #595959;
+  font-size: 1.2rem;
+}
+
+.idiomas{
+
+  display: grid;
+  margin-top: 2rem;
+  gap: 20px;
+  grid-template-columns: 12rem 6.4rem;
+}
+
+.label-titulo-idioma{
+
+  grid-column: 1/-1;
+  font-size: 1.4rem;
+  color: #595959;
+  position: relative;
+}
+
+.label-titulo-idioma::before{
+
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url(../img/idiomas.svg);
+  background-repeat: no-repeat;
+  height: 3rem;
+  width: 2rem;
+  top: -0.1rem;
+  left: -2.5rem;
+}
+
+.label-fluencia{
+
+  color: #595959;
+  font-size: 1.2rem;
+}
+
+@media (max-width:1060px){
+
+  .titulo{
+
+    font-size: 6.5rem;
+    max-width: 34rem;
+
+  }
+
+  .desc-fazendo{
+    max-width: 50ch;
+    font-size: 1.2rem;
+  }
+
+  .graducao-senai{
+
+    display: flex;
+    max-width: 15rem;
+    padding: 20px;
+    border-radius: 5px;
+    flex-direction: column;
+    background-color: #000000;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width:1025px){
+
+  .titulo{
+
+    font-size: 6.5rem;
+    max-width: 7ch;
+
+  }
+
+  .graducao-senai{
+
+    display: flex;
+    padding: 20px;
+    width: 12rem;
+  }
+
+  .graducao-analise{
+
+    display: flex;
+    width: 12rem;
+    padding: 20px;
+  }
+}
+
+@media(max-width:900px){
+
+  .formacao{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: auto 0px auto;
+    padding: 3rem 1rem;
+    margin: 0 auto;
+    gap: 3rem;
+    background-color: #0E0E0E;
+
+    justify-items: center;
+  }
+
+  .titulo{
+    text-transform: uppercase;
+    max-width: 30ch;
+  }
+
+  .desc-fazendo{
+    max-width: 60ch;
+    font-size: 1.2rem;
+  }
+
+  .graduacoes{
+    display: flex;
+    justify-content: center;
+  }
+
+  .graducao-senai{
+
+    display: flex;
+    max-width: 15rem;
+    padding: 20px;
+    border-radius: 5px;
+    flex-direction: column;
+    background-color: #000000;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  .extra{
+
+    display: flex;
+    width: 12rem;
+  }
+
+  .Curso-Intensivo, .idiomas{
+
+    display: grid;
+    margin-top: 2rem;
+    grid-template-columns: 12rem 17.9rem;
+    
+    position: relative;
+    left: 4.5rem;
+  }
+
+  .label-duracao,.label-fluencia{
+
+    display: flex;
+    justify-content: end;
+  }
+
+
+  @media(max-width:716px){
+
+
+  
+    .titulo{
+      text-transform: uppercase;
+      font-size: 6rem;
+      max-width: 30ch;
+    }
+  
+    .desc-fazendo{
+      max-width: 60ch;
+      font-size: 1rem;
+    }
+  
+    .graduacoes{
+      display: flex;
+      justify-content: center;
+    }
+  
+    .graducao-senai{
+  
+      display: flex;
+      max-width: 15rem;
+      padding: 20px;
+      border-radius: 5px;
+      flex-direction: column;
+      background-color: #000000;
+      margin-top: 2rem;
+      margin-left: 2rem;
+    }
+  
+    .extra{
+  
+      display: flex;
+      width: 12rem;
+    }
+  
+    .Curso-Intensivo, .idiomas{
+  
+      display: grid;
+      margin-top: 2rem;
+      grid-template-columns: 12rem 17.9rem;
+      
+      position: relative;
+      left: 1.2rem;
+    }
+
+  }
+
+
+
+
+  @media(max-width:649px){
+
+    .titulo{
+
+      text-transform: uppercase;
+      font-size: 4rem;
+      max-width: 30ch;
+    }
+  }
+
+
+
+
+  @media (max-width:560px){
+
+
+  
+    .titulo{
+      text-transform: capitalize;
+      max-width: 30ch;
+      position: relative;
+      left: -1.3rem;
+
+    }
+  
+    .desc-fazendo{
+      max-width: 40rem;
+      font-size: 0.9rem;
+      line-height: 1.2;
+    }
+
+    .graducao-analise{
+
+      display: flex;
+      max-width: 15rem;
+      padding: 10px;
+      border-radius: 5px;
+      flex-direction: column;
+      background-color: #000000;
+      margin-top: 2rem;
+    }
+  
+    .graducao-senai{
+  
+      display: flex;
+      max-width: 15rem;
+      padding: 10px;
+      border-radius: 5px;
+      flex-direction: column;
+      background-color: #000000;
+      margin-top: 2rem;
+      margin-left: 2rem;
+    }
+
+    .graducao-analise h3{
+
+      color: #fff;
+      line-height: 1rem;
+      font-size:1rem;
+      font-weight: 500;
+      max-width: 10rem;
+    }
+    
+    .graducao-senai h3{
+      color: #fff;
+      line-height: 1rem;
+      font-size:0.9rem;
+      font-weight: 500;
+      max-width: 10rem;
+    }
+    
+    .label-cursando{
+    
+      text-align: right;
+      color: #404040;
+      font-size: 0.7rem;
+      position: relative;
+      top: -0.4rem;
+      left: 0.4rem;
+    }
+    
+    .label-escolaridade{
+    
+      color: #595959;
+      position: relative;
+      top: -0.4rem;
+      left: -0.1rem;
+      font-size: 0.8rem;
+      position: relative;
+    
+    }
+
+    .label-estacio,.label-senai{
+      position: relative;
+      top: 0.3rem;
+      font-size: 0.7rem;
+    }
+
+    .label-estacio{
+      position: relative;
+      top: 0.8rem;
+      font-size: 0.7rem;
+    }
+    
+    .label-escolaridade::before{
+    
+      position: absolute;
+      top: -0.2rem;
+      left: -0.8rem;
+      width: 0.3rem;
+      height: 1.3rem;
+      background-color: #1BB498;
+
+    }
+    .graducao-senai .label-escolaridade::before{
+    
+      position: absolute;
+      top: -0.2rem;
+      left: -0.8rem;
+      background-color: #5EEAAF;
+      width: 0.3rem;
+      height: 1.3rem;
+    }
+
+    .extra{
+
+      display: flex;
+      flex-direction: row;
+      max-width: 500rem;
+    }
+    
+    .Curso-Intensivo{
+    
+      display: grid;
+      margin-top: 2rem;
+      gap: 10px;
+      grid-template-columns: 8rem 2rem;
+    }
+    
+    .label-cursos{
+    
+      grid-column: 1/-1;
+      font-size: 1rem;
+      color: #595959;
+      position: relative;
+    }
+    
+    .label-cursos::before{
+    
+      content: "";
+      display: block;
+      position: absolute;
+      background-image: url(../img/cursos.svg);
+      background-repeat: no-repeat;
+      background-size: 1.5rem;
+      height: 3rem;
+      width: 2rem;
+      top: -0.2rem;
+      left: 8rem;
+    }
+
+    .label-titulo-idioma::before{
+      content: "";
+      display: none;
+    }
+    .label-titulo-idioma::after{
+    
+      content: "";
+      display: block;
+      position: absolute;
+      background-image: url(../img/idiomas.svg);
+      background-repeat: no-repeat;
+      background-size: 1.5rem;
+      height: 3rem;
+      width: 2rem;
+      top: -0.1rem;
+      left: 4rem;
+    }
+    
+    .label-materia{
+    
+      color: #EDEDED;
+      font-size: 0.8rem;
+    }
+    
+    .label-duracao{
+    
+      color: #595959;
+      font-size: 0.8rem;
+    }
+    
+    .idiomas{
+    
+      display: grid;
+      margin-top: 2rem;
+      margin-left: 5rem;
+      gap: 10px;
+      grid-template-columns: 9rem 1rem;
+
+    }
+    
+    .label-titulo-idioma{
+    
+      grid-column: 1/-1;
+      font-size: 1rem;
+      color: #595959;
+      position: relative;
+    }
+  
+    
+    .label-fluencia{
+    
+      color: #595959;
+      font-size: 0.8rem;
+    }
+  
+  }
+
+  @media (max-width:500px ) {
+
+    .titulo{
+      text-transform: capitalize;
+      max-width: 30ch;
+      position: relative;
+      left: -1.3rem;
+    }
+  
+    .desc-fazendo{
+      max-width: 40rem;
+      font-size: 0.9rem;
+      line-height: 1.2;
+    }
+
+    .graduacoes{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .graducao-analise{
+
+      display: flex;
+      max-width: 15rem;
+      padding: 1rem 0.5rem;
+      border-radius: 5px;
+      flex-direction: column;
+      background-color: #000000;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  
+    .graducao-senai{
+  
+      display: flex;
+      max-width: 15rem;
+      padding: 1rem 0.5rem;
+      border-radius: 5px;
+      flex-direction: column;
+      background-color: #000000;
+      margin-top: 2rem;
+      margin: 0px;
+    }
+
+    .graducao-analise h3{
+
+      color: #fff;
+      line-height: 1.2rem;
+      font-size:1rem;
+      font-weight: 500;
+      max-width: 10rem;
+    }
+    
+    .graducao-senai h3{
+      color: #fff;
+      line-height: 1.2rem;
+      font-size:1rem;
+      font-weight: 500;
+      max-width: 1ch;
+    }
+    
+    .label-cursando{
+    
+      text-align: right;
+      color: #404040;
+      font-size: 0.7rem;
+      position: relative;
+      top: -0.8rem;
+      left: 0.2rem;
+    }
+    
+    .label-escolaridade{
+    
+      color: #595959;
+      position: relative;
+      top: -1rem;
+      left: -0.1rem;
+      font-size: 0.8rem;
+      position: relative;
+    
+    }
+
+    .label-senai{
+      position: relative;
+      top: 0.6rem;
+      font-size: 0.7rem;
+    }
+
+    .label-estacio{
+      position: relative;
+      top: 0.6rem;
+      font-size: 0.7rem;
+    }
+    
+    .label-escolaridade::before{
+    
+      position: absolute;
+      top: -0.2rem;
+      left: -0.65rem;
+      width: 0.25rem;
+      height: 1.2rem;
+      background-color: #1BB498;
+
+    }
+    .graducao-senai .label-escolaridade::before{
+    
+      position: absolute;
+      top: -0.2rem;
+      left: -0.65rem;
+      background-color: #5EEAAF;
+      width: 0.25rem;
+      height: 1.3rem;
+    }
+
+    .extra{
+
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      flex-direction: column;
+    }
+    
+    .Curso-Intensivo{
+    
+      display: grid;
+      justify-content: center;
+      margin-top: 2rem;
+      max-width: 40rem;
+      position: relative;
+      left: -1.2rem;
+      gap: 10px;
+      grid-template-columns: 8rem 2rem;
+    }
+    
+    .label-cursos{
+    
+      grid-column: 1/-1;
+      font-size: 1.2rem;
+      color: #595959;
+      position: relative;
+    }
+    
+    .label-cursos::before{
+    
+      content: "";
+      display: block;
+      position: absolute;
+      background-image: url(../img/cursos.svg);
+      background-repeat: no-repeat;
+      background-size: 1.5rem;
+      height: 3rem;
+      width: 2rem;
+      top: -0.1rem;
+      left: 10rem;
+    }
+
+    .label-titulo-idioma::before{
+      content: "";
+      display: none;
+    }
+    .label-titulo-idioma::after{
+    
+      content: "";
+      display: block;
+      position: absolute;
+      background-image: url(../img/idiomas.svg);
+      background-repeat: no-repeat;
+      background-size: 1.45rem;
+      height: 3rem;
+      width: 2rem;
+      top: 0rem;
+      left: 5rem;
+    }
+    
+    .label-materia{
+    
+      color: #EDEDED;
+      font-size: 0.8rem;
+    }
+    
+    .label-duracao{
+    
+      color: #595959;
+      font-size: 0.8rem;
+      position: relative;
+      right: -2.4rem;
+    }
+    
+    .idiomas{
+    
+      display: grid;
+      max-width: 40rem;
+      justify-content: center;
+      gap: 10px;
+      grid-template-columns: 8rem 2rem;
+      position: relative;
+      left: -3.8rem;
+    }
+    
+    .label-titulo-idioma{
+    
+      grid-column: 1/-1;
+      font-size: 1.2rem;
+      color: #595959;
+      position: relative;
+    }
+  
+    
+    .label-fluencia{
+    
+      color: #595959;
+      font-size: 0.8rem;
+      position: relative;
+      right: -2.4rem;
+    }
+  }
+
+  @media (max-width:380px ){
+
+    .titulo{
+      text-transform: capitalize;
+      max-width: 30ch;
+      position: relative;
+      left: -1.3rem;
+      font-size: 3rem;
+
+    
+    }
+  }
+}
